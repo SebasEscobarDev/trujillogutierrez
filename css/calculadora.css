@@ -1,0 +1,97 @@
+.animate-on,
+.type-options{
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+#content{
+	width:100%;
+}
+.calculate-btn{
+	max-width: 200px;
+	display: inline-block;
+}
+input[type="range"]{
+	max-width: 80%;
+}
+.custom-control-label::before,
+.custom-control-label::after{
+	top: 1px;
+}
+
+@media (min-width: 1200px){
+    .modal-xl {
+        max-width: 1340px;
+    }
+}
+@media (min-width: 1200px){
+	.modal-content .container {
+	    max-width: 1300px;
+	}
+}
+.modal-content .type-options{
+	cursor: pointer;
+}
+.modal-content .type-options:hover{
+	background: rgba(0,0,0,0.1);
+	padding: 5px;
+}
+.radio-selected{
+	background: rgba(0,0,0,0.2) !important;
+	padding: 10px !important;
+}
+table{
+	margin-bottom: 0px !important;
+}
+td h4{
+	margin-bottom: 0px;
+}
+.modal-content .fancy-title.title-dotted-border{
+	margin-bottom: 15px !important;
+}
+.custom-control.custom-radio{
+	text-align: center;
+}
+.frm-projects h3{
+	padding-left: 15px;
+}
+.frm-projects h4{
+	padding-left: 10px;
+}
+.btn-type{
+	margin-bottom: 15px !important;
+}
+#typeSelected{
+	border: 1px solid red;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+#typeSelected .custom-radio{
+	display: none;
+}
+#typeSelected > div{
+	float: left;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px !important;
+    text-align: center;
+}
+#typeSelected img{
+	max-width: 250px;
+}
+.calculate{
+	display: none;
+	margin-top: 20px;
+    padding: 30px 60px 12px 5px;
+    background: #ececec;
+}
+.modal-body > div{
+	display: inline-block !important;
+}
+
+#modalSendCalculator > div {
+    width: 100% !important;
+    max-width: 1000px !important;
+}
